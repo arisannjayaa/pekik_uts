@@ -30,7 +30,8 @@ Id_motor int NOT NULL PRIMARY KEY AUTO_INCREMENT,
 No_plat VARCHAR(10),
 Jenis_motor VARCHAR(10), 
 Tahun_buat VARCHAR(10),
-warna VARCHAR(10), Merk VARCHAR(10)
+warna VARCHAR(10),
+Merk VARCHAR(10)
 );
 
 INSERT INTO tb_motor

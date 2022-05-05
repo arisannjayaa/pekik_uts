@@ -16,7 +16,7 @@
     }
 
     function base_url($url = null) {
-        $base_url = "https://localhost/pekik_uts";
+        $base_url = "http://localhost/pekik_uts";
         if($url != null) {
             return $base_url."/".$url;
         }else {

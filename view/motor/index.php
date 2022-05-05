@@ -72,9 +72,9 @@
                         <td><?=$data['warna']?></td>
                         <td><?=$data['Merk']?></td>
                         <td>
-                            <a href="<?=base_url("view/motor/update.php?".$data['Id_motor'])?>"><button
+                            <a href="<?=base_url("view/motor/update.php?id=".$data['Id_motor'])?>"><button
                                     class="btn btn-warning">Edit</button></a>
-                            <a href="<?=base_url("config/motor/hapus.php?".$data['Id_motor'])?>"><button
+                            <a href="<?=base_url("config/motor/delete.php?id=".$data['Id_motor'])?>"><button
                                     class="btn btn-danger">Hapus</button></a>
                         </td>
                     </tr>

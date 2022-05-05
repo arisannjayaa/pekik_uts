@@ -21,40 +21,40 @@
             </div>
         </div>
         <hr>
-        <form action="<?=base_url("")?>" method="post">
+        <form action="<?=base_url("/config/motor/tambah.php")?>" method="post">
             <div class="row mb-3">
                 <label class="col-2">No Plat</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="no_plat">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Jenis</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="jenis">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Warna</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="warna">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Tahun Buat</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="tahun">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Merk</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="merk">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <a href="<?=base_url("view/motor/index.php")?>"><button type="submit"
+                    <a href="<?=base_url("view/motor/index.php")?>"><button type="button"
                             class="btn btn-warning">Kembali</button></a>
                     <button type="submit" class="btn btn-primary">Tambah</button>
                 </div>

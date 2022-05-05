@@ -70,9 +70,9 @@
                         <td><?=$data['Jenis_kelamin']?></td>
                         <td><?=$data['No_telpon']?></td>
                         <td>
-                            <a href="<?=base_url("view/customer/update.php?".$data['Id_customer'])?>"><button
+                            <a href="<?=base_url("view/customer/update.php?id=".$data['Id_customer'])?>"><button
                                     class="btn btn-warning">Edit</button></a>
-                            <a href="<?=base_url("config/customer/hapus.php?".$data['Id_customer'])?>"><button
+                            <a href="<?=base_url("config/customer/delete.php?id=".$data['Id_customer'])?>"><button
                                     class="btn btn-danger">Hapus</button></a>
                         </td>
                     </tr>

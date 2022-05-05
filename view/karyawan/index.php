@@ -70,9 +70,9 @@
                         <td><?=$data['Jenis_kelamin']?></td>
                         <td><?=$data['No_telpon']?></td>
                         <td>
-                            <a href="<?=base_url("view/karyawan/update.php?".$data['Id_karyawan'])?>"><button
+                            <a href="<?=base_url("view/karyawan/update.php?id=".$data['Id_karyawan'])?>"><button
                                     class="btn btn-warning">Edit</button></a>
-                            <a href="<?=base_url("config/karyawan/hapus.php?".$data['Id_karyawan'])?>"><button
+                            <a href="<?=base_url("config/karyawan/delete.php?id=".$data['Id_karyawan'])?>"><button
                                     class="btn btn-danger">Hapus</button></a>
                         </td>
                     </tr>

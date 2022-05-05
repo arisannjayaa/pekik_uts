@@ -41,7 +41,13 @@
             <div class="row mb-3">
                 <label class="col-2">Jenis</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="jenis" value="<?=$data['Jenis_motor']?>">
+                    <select name="jenis" class="form-select">
+                        <option value="">Pilih Jenis Motor</option>
+                        <option value="Automatic" <?php if($data['Jenis_motor'] == "Automatic") {echo "selected";} ?>>
+                            Otomatis</option>
+                        <option value="Manual" <?php if($data['Jenis_motor'] == "Manual") {echo "selected";} ?>>
+                            Manual</option>
+                    </select>
                 </div>
             </div>
             <div class="row mb-3">

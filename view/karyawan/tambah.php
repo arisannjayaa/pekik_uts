@@ -21,34 +21,39 @@
             </div>
         </div>
         <hr>
-        <form action="<?=base_url("")?>" method="post">
+        <form action="<?=base_url("/config/karyawan/tambah.php")?>" method="post">
             <div class="row mb-3">
                 <label class="col-2">Nama Karyawan</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="nama">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Alamat</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="text" class="form-control" name="alamat">
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">Jenis Kelamin</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <select name="jenis" class="form-select">
+                        <option value="">Pilih Jenis Kelamin</option>
+                        <option value="Pria">Pria</option>
+                        <option value="Wanita">Wanita</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
                 </div>
             </div>
             <div class="row mb-3">
                 <label class="col-2">No Telepon</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="">
+                    <input type="number" class="form-control" name="telp">
                 </div>
             </div>
             <div class="row mb-3">
                 <div class="col">
-                    <a href="<?=base_url("view/karyawan/index.php")?>"><button type="submit"
+                    <a href="<?=base_url("view/karyawan/index.php")?>"><button type="button"
                             class="btn btn-warning">Kembali</button></a>
                     <button type="submit" class="btn btn-primary">Tambah</button>
                 </div>

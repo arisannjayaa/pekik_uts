@@ -31,7 +31,11 @@
             <div class="row mb-3">
                 <label class="col-2">Jenis</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="jenis">
+                    <select name="jenis" class="form-select">
+                        <option value="">Pilih Jenis Kendaraan</option>
+                        <option value="Automatic">Otomatis</option>
+                        <option value="Manual">Manual</option>
+                    </select>
                 </div>
             </div>
             <div class="row mb-3">
@@ -43,7 +47,7 @@
             <div class="row mb-3">
                 <label class="col-2">Tahun Buat</label>
                 <div class="col-4">
-                    <input type="text" class="form-control" name="tahun">
+                    <input type="number" class="form-control" name="tahun">
                 </div>
             </div>
             <div class="row mb-3">
